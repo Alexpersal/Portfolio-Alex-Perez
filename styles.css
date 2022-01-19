@@ -1,8 +1,8 @@
 *{
-    background-color: black;
+    background-color: rgb(26, 26, 26);
 }
 
-h1{
+h1, h3, h4{
     text-align: center;
-    color: rgb(216, 29, 29);
+    color:white;
 }
