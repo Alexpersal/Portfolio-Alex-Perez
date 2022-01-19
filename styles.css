@@ -5,4 +5,11 @@
 h1, h3, h4{
     text-align: center;
     color:white;
+    font-family: sans-serif;
+    
 }
+
+h1{
+text-size-adjust: 96;
+}
+
