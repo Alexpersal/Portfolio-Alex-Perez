@@ -1,58 +1,65 @@
 /**{
     background-color: rgb(26, 26, 26);
+    height: auto;
+    width: auto;
 }*/
 @font-face { /*incluimos el tipo de fuente,dándole un nombre y haciendo referencia al archivo que la contiene*/
     font-family: "Pattaya-Regular";
     src: url("Pattaya-Regular.ttf");
 }
 .cabecera{
-    background-color: rgb(26, 26, 26);
+    /*background-color: rgb(26, 26, 26);*/
     height: 100px;
+    width: auto;
     display:flex;
-    border-color: 2px black;
+    border: 2px solid black;
     align-items: center;
     
 }
+.navegador{
+    background-color: rgb(26,26,26);
+    display: flex;
+    justify-content: space-around;
+    
 
+   /* margin-left: 300px;
+    padding-left: 200px;
+    padding-right: 100px;
+    gap: 20px;*/
+}
 .cuerpo{
     background-color: rgb(26, 26, 26);
     display:flex;
     flex-direction: row;
-    align-items: center;
+    /*align-items: center;*/
     height: 696px;
     border-bottom-color: black;
 }
 .pie{
-    background-color: rgb(25, 0, 255);
+    background-color: rgb(26, 26, 26);
     height: 100px;
     display: flex;
     flex-direction:column;
     padding-left: 45px;
+    border: 2px solid black;
    
 }
 .logos{
-    background-color: chartreuse;
+    background-color: rgb(26, 26, 26);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-content:space-around;
     height: 26px;
     width: 103px;
     
 }
 .follow{
-    background-color: crimson;
+    background-color: rgb(26, 26, 26);
     height: 48px;
     width: 102px;
 }
-.navegador{
-    background-color: rgb(26,26,26);
-    display: flex;
-    justify-content:space-between;
-   /* margin-left: 300px;*/
-    padding-left: 200px;
-    padding-right: 100px;
-    gap: 20px;
-}
+
 .proyectos{
     padding-left: 200px;
 }
