@@ -1,15 +1,91 @@
-*{
+/**{
     background-color: rgb(26, 26, 26);
+}*/
+@font-face { /*incluimos el tipo de fuente,dándole un nombre y haciendo referencia al archivo que la contiene*/
+    font-family: "Pattaya-Regular";
+    src: url("Pattaya-Regular.ttf");
+}
+.cabecera{
+    background-color: rgb(26, 26, 26);
+    height: 100px;
+    display:flex;
+    border-color: 2px black;
+    align-items: center;
+    
 }
 
-h1, h3, h4{
-    text-align: center;
+.cuerpo{
+    background-color: rgb(26, 26, 26);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 696px;
+    border-bottom-color: black;
+}
+.pie{
+    background-color: rgb(25, 0, 255);
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    padding-left: 45px;
+   
+}
+.logos{
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    height: 26px;
+    width: 103px;
+    
+}
+.follow{
+    background-color: crimson;
+    height: 48px;
+    width: 102px;
+}
+.navegador{
+    background-color: rgb(26,26,26);
+    display: flex;
+    justify-content:space-between;
+   /* margin-left: 300px;*/
+    padding-left: 200px;
+    padding-right: 100px;
+    gap: 20px;
+}
+.proyectos{
+    padding-left: 200px;
+}
+.contacto{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1, h3, h4, p{
+    /*text-align: left;*/
     color:white;
-    font-family: sans-serif;
+    font-family: "Pattaya-Regular"
     
 }
 
 h1{
-text-size-adjust: 96;
+font-size: 96px;
 }
 
+h3{
+    font-size: 22px;
+    top: 45px; 
+
+}
+
+p{
+    
+    font-size: 36px;
+    top: 431px;
+}
+
+h4{
+    
+    font-size: 12px;
+    
+}
