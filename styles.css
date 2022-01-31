@@ -8,7 +8,7 @@
     src: url("Pattaya-Regular.ttf");
 }
 .cabecera{
-    background-color: red;
+    background-color: rgb(26,26,26);
     height: 100px;
     display:flex;
     border: 2px solid black;
@@ -25,12 +25,29 @@
     display: flex;
     width: 90%;
     margin-left: 100px;
+    align-items: center;
     justify-content: space-between;
-    
-    /*padding-left: 200px;
-    padding-right: 100px;
-    gap: 20px;*/
+    font-family: "Pattaya-Regular";
 }
+#home{
+    padding-left: 200px;
+    color: white;
+    top: 45px;
+    font-size: 22px;
+}
+#proyectos{
+    padding-left: 200px;
+    color: white;
+    top: 45px;
+    font-size: 22px;
+}
+#contacto{
+    padding-left: 200px;
+    color: white;
+    top: 45px;
+    padding-right: 200px;
+}
+
 .cuerpo{
     background-color: rgb(26, 26, 26);
     display:flex;
@@ -64,15 +81,7 @@
     width: 102px;
 }
 
-.proyectos{
-    padding-left: 200px;
-}
-.contacto{
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-h1, h3, h4, p{
+h1, h4, p, a{
     /*text-align: left;*/
     color:white;
     font-family: "Pattaya-Regular"
@@ -83,7 +92,7 @@ h1{
 font-size: 96px;
 }
 
-h3{
+a{
     font-size: 22px;
     top: 45px; 
 

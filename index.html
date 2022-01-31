@@ -8,9 +8,9 @@
         <header class="cabecera">
             <div><img src="./LOGO_nom.png" width="100px" height="71.25px" ></div>
             <nav class="navegador">
-                <div class="home"><h3>Home</h3></div>
-                <div class="proyectos"><h3>Proyectos</h3></div>
-                <div class="contacto"><h3>Contacto</h3></div>
+                <div id="home"><a href="index.html">Home</a></div>
+                <div id="proyectos">Proyectos</div>
+                <div id="contacto"><h3>Contacto</h3></div>
             </nav>
         </header>
         <main class="cuerpo">
@@ -52,7 +52,18 @@
             
         </footer>        
         <script>
-            
+            document.getElementById("proyectos").onmouseover = function() {mouseTextOver()};
+            document.getElementById("proyectos").onmouseout = function() {mouseTextOut()}; 
+
+            function mouseTextOver() { 
+                document.getElementById("proyectos").style.color = "white";
+                document.getElementById("proyectos").style.fontSize = "23px";
+            }
+            function mouseTextOut() { 
+                document.getElementById("proyectos").style.color = "white";
+                document.getElementById("proyectos").style.fontSize = "22px";
+            }
+
         </script>
     </body>
 </html>
