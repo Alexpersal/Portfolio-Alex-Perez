@@ -7,13 +7,13 @@ body{
 }
 
 @keyframes rebotar {
-    from{transform:translateY(0);}
-    to{transform: translateY(-15px);}
+    from{transform:translateY(-5);}
+    to{transform: translateY(-20px);}
     
 }
 @keyframes sacarTexto {
-    from{transform:translateX(-100); opacity: 0%;}
-    to{transform: translateX(50%);opacity: 50%;}
+    from{transform:translateX(-100%); opacity: 0%;}
+    to{transform: translateX(0%);opacity: 100%;}
     
 }
 
@@ -25,9 +25,10 @@ body{
 
 }
 .cabecera{
-    background-color: rgb(26,26,26);
+    background-color: rgb(37, 37, 37);
+    height: 10%
     display:flex;
-    border-bottom-color: 2px solid black;
+    border: 1px solid black;
     align-items:center;  
 }
 
@@ -41,7 +42,7 @@ body{
     font-family: "Pattaya-Regular";
 }
 #home, #proyectos, #contacto{
-    background-color: black;
+    /*background-color: black;*/
     color: white;
     top: 45px;
     font-size: 22px;
@@ -49,34 +50,37 @@ body{
 }
 
 .cuerpo{    
-    background-color: blue;
+    background-color: rgb(37, 37, 37);
+    height: 80%;
     display:flex;
     flex-grow: 2;
        
 }
 .izq{
-    background-color: coral;
+    /*background-color: coral;*/
     display:block;
     width: 50%;
 }  
 .centro{
     position:static;
-    width: 0px;
-    height: 0px;
+    width: 624px;
+    height: 319px;
     left: 212px;
     top: 370px;
     border-radius: 50%;
     background: #000000;
     border: 10px solid #000000;
-    box-sizing: border-box;
+    box-sizing:content-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
-    transition: all 500ms ease-in-out;
+   /* transition: all 500ms ease-in-out;*/
 }
 .centro:hover{
     width: 624px;
     height: 319px;
+    left: 212px;
+    top: 370px;
 }
 .der{
     /*background-color: yellow;*/
@@ -85,31 +89,40 @@ body{
 }
 
 .pie{
-    background-color: rgb(26, 26, 26);
+    /*background-color: rgb(37, 37, 37);*/
+    height: 10%;
     display: flex;
     flex-direction:column;
-    border-top-color: 2px solid black;
-    bottom: 2px;
+    justify-content: space-between;
+    border: solid 1px black;
+    
+    
     
    
 }
 .logos{
-    background-color: rgb(26, 26, 26);
+    /*background-color: rgb(26, 26, 26);*/
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     align-content:space-around;
+    align-items: center;
     height: 26px;
     width: 103px;
     
 }
 
 .follow{
-    background-color: rgb(26, 26, 26);
-    height: 48px;
-    width: 102px;
+    background-color: violet;
+    color: white;
+    font-family: "Pattaya-Regular";
+    text-align: center;
+    font-size: 16px;
+    /*height: 48px;
+    width: 102px;*/
 }
 .insta{
+    background-color: tomato;
     animation-name: rebotar;
     animation-duration: 1s;
     animation-timing-function:linear;
@@ -120,6 +133,7 @@ body{
     animation-play-state:running;
 }
 .twitter{
+    background-color: violet;
     animation-name: rebotar;
     animation-duration: 1s;
     animation-timing-function:linear;
@@ -130,6 +144,7 @@ body{
     animation-play-state:running;
 }
 .link{
+    background-color: black;
     animation-name: rebotar;
     animation-duration: 1s;
     animation-timing-function:linear;
@@ -142,7 +157,7 @@ body{
 
 h1{
     animation-name: sacarTexto;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -153,7 +168,7 @@ h1{
 h1, h4, p, a{
     /*text-align: left;*/
     color:white;
-    font-family: "Pattaya-Regular"
+    font-family: "Pattaya-Regular";
     
 }
 
@@ -162,9 +177,13 @@ font-size: 96px;
 }
 
 p{
-    
+    position: relative;
     font-size: 36px;
     top: 431px;
+    width: 473px;
+    height: 195px;
+    left: 288px;
+
 }
 
 h4{
