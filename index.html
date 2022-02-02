@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
-    
-    <body>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="prueba">
         <header class="cabecera">
-            <div><img src="./LOGO_nom.png" width="100px" height="71.25px" ></div>
+            <div><img src="./LOGO_nom.png" width="100px" height="71.25px"></div>
             <nav class="navegador">
                 <a id="home" href="index.html">Home</a>
                 <a id="proyectos" href="index.html">Proyectos</a>
@@ -19,34 +21,39 @@
             </section>
             <section class="centro">
                 <p>Profesional del Front End Web </br> developer con base en Barcelona.</br>
-                Con un amplio recorrido en el </br>mundo web.</p>
+                    Con un amplio recorrido en el </br>mundo web.</p>
             </section>
             <section class="der">
                 <img src="./Alejandro.png" width="572" height="596">
             </section>
         </main>
         <footer class="pie">
-            <div class="follow"><h4>Follow me on: </h4></div> 
+            <div class="follow">
+                <h4>Follow me on: </h4>
+            </div>
             <div class="logos">
                 <div class="insta"><img src="./LOGO_insta.png" width="27px" height="26"></div>
                 <div class="twitter"><img src="./LOGO_TWITTER.png" width="27" height="26"></div>
                 <div class="link"><img src="./LOGOTLINK.png" width="27" height="26"></div>
             </div>
-            
-        </footer>        
-        <script>
-            document.getElementById("home").onmouseover = function() {mouseTextOver()};
-            document.getElementById("home").onmouseout = function() {mouseTextOut()}; 
 
-            function mouseTextOver() { 
-                document.getElementById("home").style.color = "white";
-                document.getElementById("home").style.fontSize = "23px";
-            }
-            function mouseTextOut() { 
-                document.getElementById("home").style.color = "white";
-                document.getElementById("home").style.fontSize = "22px";
-            }
+        </footer>
+    </div>
+    </div>
+    <script>
+        document.getElementById("home").onmouseover = function () { mouseTextOver() };
+        document.getElementById("home").onmouseout = function () { mouseTextOut() };
 
-        </script>
-    </body>
+        function mouseTextOver() {
+            document.getElementById("home").style.color = "white";
+            document.getElementById("home").style.fontSize = "23px";
+        }
+        function mouseTextOut() {
+            document.getElementById("home").style.color = "white";
+            document.getElementById("home").style.fontSize = "22px";
+        }
+
+    </script>
+</body>
+
 </html>
