@@ -30,10 +30,7 @@
     text-decoration: none;
 }
 
-.cuerpo{
-    /*background-color: rgb(26, 26, 26);*/
-    /*width: 100%;*/
-    
+.cuerpo{    
     display:flex;
        
 }
@@ -43,10 +40,24 @@
     height: 80%;
     width: 50%;
 }  
-    .der{
-        background-color: yellow;
-        display: block;
-        width: 50%;
+.centro{
+    position: absolute;
+    width: 624px;
+    height: 319px;
+    left: 212px;
+    top: 370px;
+    border-radius: 50%;
+    background: #000000;
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+.der{
+    background-color: yellow;
+    display: block;
+    width: 50%;
         
 }
 .pie{
@@ -55,7 +66,6 @@
     flex-direction:column;
     padding-left: 45px;
     border-top-color: 2px solid black;
-    position: absolute;
     bottom: 2px;
     
    
@@ -95,6 +105,6 @@ p{
 
 h4{
     
-    font-size: 12px;
+    font-size: 16px;
     
 }
