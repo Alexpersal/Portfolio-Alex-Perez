@@ -8,14 +8,14 @@
     src: url("Pattaya-Regular.ttf");
 }
 .cabecera{
-    background-color: rgb(26,26,26);
+    /*background-color: rgb(26,26,26);*/
     display:flex;
     border-bottom-color: 2px solid black;
     align-items:center;  
 }
 
 .navegador{
-    background-color: rgb(26,26,26);
+    /*background-color: rgb(26,26,26);*/
     display: flex;
     width: 70%;
     margin-left: 200px;
@@ -24,6 +24,7 @@
     font-family: "Pattaya-Regular";
 }
 #home, #proyectos, #contacto{
+    background-color: black;
     color: white;
     top: 45px;
     font-size: 22px;
@@ -41,7 +42,7 @@
     width: 50%;
 }  
 .centro{
-    position: absolute;
+    position:static;
     width: 624px;
     height: 319px;
     left: 212px;
