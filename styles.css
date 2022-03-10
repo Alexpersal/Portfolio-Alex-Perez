@@ -105,6 +105,13 @@ body {
   display: block;
   width: 50%;
 }
+.derFormulario {
+  display: block;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .pie {
   border: 1px solid #000000;
@@ -163,7 +170,8 @@ h1 {
 h1,
 h4,
 p,
-a {
+a,
+label {
   color: white;
   font-family: "Pattaya-Regular";
 }
@@ -171,15 +179,13 @@ a {
 h1 {
   font-size: 6rem;
 }
-
+h4 {
+  font-size: 1rem;
+}
 p {
   font-size: 2.25rem;
   top: 30%;
   width: 473px;
   height: 195px;
   left: 288px;
-}
-
-h4 {
-  font-size: 1rem;
 }
