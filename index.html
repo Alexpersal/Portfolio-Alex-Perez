@@ -7,9 +7,9 @@
     <header class="cabecera">
       <div><img class="nom" src="./LOGO_nom.png" /></div>
       <nav class="navegador">
-        <a class="home" href="index.html">Home</a>
-        <a class="proyectos" href="proyectos.html">Proyectos</a>
-        <a class="contacto" href="contacto.html">Contacto</a>
+        <a class="home" id="home" href="index.html">Home</a>
+        <a class="proyectos" id="proyectos" href="proyectos.html">Proyectos</a>
+        <a class="contacto" id="contacto" href="contacto.html">Contacto</a>
       </nav>
     </header>
     <main class="cuerpo">
@@ -43,22 +43,5 @@
         </div>
       </div>
     </footer>
-    <script>
-      document.getElementById("home").onmouseover = function () {
-        mouseTextOver();
-      };
-      document.getElementById("home").onmouseout = function () {
-        mouseTextOut();
-      };
-
-      function mouseTextOver() {
-        document.getElementById("home").style.color = "white";
-        document.getElementById("home").style.fontSize = "23px";
-      }
-      function mouseTextOut() {
-        document.getElementById("home").style.color = "white";
-        document.getElementById("home").style.fontSize = "22px";
-      }
-    </script>
   </body>
 </html>

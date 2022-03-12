@@ -1,70 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
-    
-    <body>
-        <header class="cabecera">
-            <div><img src="./LOGO_nom.png" width="100px" height="71.25px" ></div>
-            <nav class="navegador">
-                <a id="home" href="index.html">Home</a>
-                <a id="proyectos" href="index.html">Proyectos</a>
-                <a id="contacto" href="contacto.html">Contacto</a>
-            </nav>
-        </header>
-        <main class="cuerpo">
-            <section class="izq">
-                <h1>Alejandro Perez</h1>
-            </section>
-            <section class="centro">
-                <p>Profesional del Front End Web </br> developer con base en Barcelona.</br>
-                Con un amplio recorrido en el </br>mundo web.</p>
-            </section>
-            <section class="der">
-                <form action="https://formcarry.com/s/WD3n4ffgA7m" target="_blank" method="POST" accept-charset="UTF-8" >
-                    <label for="nombre">Su nombre:</label>
-                    <br>
-                    <input type="text" name="nombre" placeholder="Su nombre">
-                    <br>
-                    <label for="primerAP">Primer apellido:</label>
-                    <br>
-                    <input type="text" name="primerAP" placeholder="Primer Apellido">
-                    <br>
-                    <label for="segundoAP">Segundo apellido:</label>
-                    <br>
-                    <input type="text" name="segundoAP" placeholder="segundo Apellido">
-                    <br>
-                    <label for="email">email contacto:</label>
-                    <br>
-                    <input type="email" name="email" placeholder="email@email.com">
-                    <br>
-                    <input type="submit" value="Submit">
-                </form>
-            </section>
-        </main>
-        <footer class="pie">
-            <div class="follow"><h4>Follow me on: </h4></div> 
-            <div class="logos">
-                <div class="insta"><img src="./LOGO_insta.png" width="27px" height="26"></div>
-                <div class="twitter"><img src="./LOGO_TWITTER.png" width="27" height="26"></div>
-                <div class="link"><img src="./LOGOTLINK.png" width="27" height="26"></div>
-            </div>
-            
-        </footer>        
-        <script>
-            document.getElementById("home").onmouseover = function() {mouseTextOver()};
-            document.getElementById("home").onmouseout = function() {mouseTextOut()}; 
-
-            function mouseTextOver() { 
-                document.getElementById("home").style.color = "white";
-                document.getElementById("home").style.fontSize = "23px";
-            }
-            function mouseTextOut() { 
-                document.getElementById("home").style.color = "white";
-                document.getElementById("home").style.fontSize = "22px";
-            }
-
-        </script>
-    </body>
+  <head>
+    <title>Portfolio Alex Perez</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="conjunto">
+    <header class="cabecera">
+      <div><img class="nom" src="./LOGO_nom.png" /></div>
+      <nav class="navegador">
+        <a class="home" id="home" href="index.html">Home</a>
+        <a class="proyectos" id="proyectos" href="proyectos.html">Proyectos</a>
+        <a class="contacto" id="contacto" href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+    <main class="cuerpo">
+      <section class="izq">
+        <h1>Contacto</h1>
+      </section>
+      <section class="centro">
+        <p>
+          Si desea que contacte con ud <br />por favor, rellene el formilario<br />y
+          contactaré a la mayor brevedad posible. <br />
+        </p>
+      </section>
+      <section class="derFormulario">
+        <form
+          class="formulario"
+          action="https://formcarry.com/s/WD3n4ffgA7m"
+          target="_blank"
+          method="POST"
+          accept-charset="UTF-8"
+        >
+          <label for="nombre">Su nombre:</label>
+          <br /><br />
+          <input type="text" name="nombre" placeholder="Su nombre" />
+          <br /><br />
+          <label for="primerAP">Primer apellido:</label>
+          <br /><br />
+          <input type="text" name="primerAP" placeholder="Primer Apellido" />
+          <br /><br />
+          <label for="segundoAP">Segundo apellido:</label>
+          <br /><br />
+          <input type="text" name="segundoAP" placeholder="segundo Apellido" />
+          <br /><br />
+          <label for="email">email contacto:</label>
+          <br /><br />
+          <input type="email" name="email" placeholder="email@email.com" />
+          <br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer class="pie">
+      <div>
+        <h2 class="textoFollow">Follow me on:</h2>
+      </div>
+      <div class="logos">
+        <div class="insta">
+          <img src="./LOGO_instagram.png" width="27px" height="26px" />
+        </div>
+        <div class="twitter">
+          <img src="./twitter.png" width="27px" height="26px" />
+        </div>
+        <div class="link">
+          <img src="./linkedin.png" width="27px" height="26px" />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
