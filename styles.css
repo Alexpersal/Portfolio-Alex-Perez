@@ -193,3 +193,16 @@ p {
 h4 {
   font-size: 1rem;
 }
+
+.formulario {
+  width: 80%;
+  height: 80%;
+  border: 1px solid white;
+}
+input[type="text"],
+[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+}
