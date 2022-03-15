@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio Alex Perez</title>
+    <title>Alejandro Perez Contact page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="conjunto">
@@ -19,44 +19,40 @@
       </section>
       <section class="centro">
         <p>
-          Si desea que contacte con ud <br />por favor, rellene el formilario<br />y
-          contactaré a la mayor brevedad posible. <br />
+          Rellene el formulario y <br />contactaré a la mayor brevedad posible.
         </p>
       </section>
       <section class="derFormulario">
-        <form
-          class="formulario"
-          action="https://formcarry.com/s/WD3n4ffgA7m"
-          target="_blank"
-          method="POST"
-          accept-charset="UTF-8"
-        >
-          <label for="nombre">Su nombre:</label>
-          <br />
-          <input type="text" name="nombre" placeholder="Su nombre" />
-
-          <label for="primerAP">Primer apellido:</label>
-
-          <input type="text" name="primerAP" placeholder="Primer Apellido" />
-
-          <label for="segundoAP">Segundo apellido:</label>
-
-          <input type="text" name="segundoAP" placeholder="segundo Apellido" />
-
-          <label for="email">email contacto:</label>
-
-          <input type="email" name="email" placeholder="email@email.com" />
-
-          <label for="comentario">Comentarios:</label>
-
-          <input
-            type="text"
-            name="Comentarios"
-            placeholder="introduzca sus cometarios"
-          />
-
-          <input type="submit" value="Submit" />
-        </form>
+        <div class="cajaFormulario">
+          <form
+            class="formulario"
+            action="https://formcarry.com/s/WD3n4ffgA7m"
+            target="_blank"
+            method="POST"
+            accept-charset="UTF-8"
+          >
+            <label for="nombre">Su nombre</label>
+            <input type="text" name="nombre" placeholder="Su nombre" />
+            <label for="primerAP">Primer apellido</label>
+            <input type="text" name="primerAP" placeholder="Primer Apellido" />
+            <label for="segundoAP">Segundo apellido</label>
+            <input
+              type="text"
+              name="segundoAP"
+              placeholder="segundo Apellido"
+            />
+            <label for="email">email contacto</label>
+            <input type="email" name="email" placeholder="email@email.com" />
+            <label for="comentario">Comentarios</label>
+            <input
+              class="comentarios"
+              type="text"
+              name="Comentarios"
+              placeholder="introduzca sus cometarios"
+            />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </section>
     </main>
     <footer class="pie">
@@ -65,14 +61,15 @@
       </div>
       <div class="logos">
         <div class="insta">
-          <img src="./LOGO_instagram.png" width="27px" height="26px" />
-        </div>
-        <div class="twitter">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="./LOGO_instagram.png" width="27px" height="26px" />
+          
+        </div></a>
+        <div class="twitter"><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
           <img src="./twitter.png" width="27px" height="26px" />
-        </div>
-        <div class="link">
+        </div></a>
+                <div class="link"><a href="https://www.linkedin.com/in/alejandro-pérez-salido-aa001a42" target="_blank" rel="noopener noreferrer">
           <img src="./linkedin.png" width="27px" height="26px" />
-        </div>
+        </div></a>
       </div>
     </footer>
   </body>
