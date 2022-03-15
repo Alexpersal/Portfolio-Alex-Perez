@@ -108,7 +108,7 @@ body {
 .derProject {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border: 1px solid white;
 }
