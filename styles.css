@@ -84,7 +84,7 @@ body {
 .centro {
   position: absolute;
   width: 37%;
-  height: 31, 9%;
+  height: 31%;
   left: 25%;
   top: 37%;
   border-radius: 50%;
@@ -103,7 +103,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
 }
 .derProject {
   width: 40%;
@@ -119,7 +118,6 @@ body {
   width: 33%;
   height: 33%;
   color: white;
-
   align-items: center;
   margin: 5%;
   font-size: 1.5em;
@@ -129,6 +127,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .project1 {
   background-image: url(./neva.png);
@@ -202,8 +201,8 @@ body {
 .logos {
   display: flex;
   justify-content: space-between;
-  height: 26px;
-  width: 103px;
+  height: 1.625rem;
+  width: 6.438rem;
   margin-left: 1%;
 }
 
@@ -238,7 +237,6 @@ h1 {
   animation-direction: normal;
   animation-fill-mode: normal;
   animation-play-state: running;
-
   text-shadow: 0px 10px 10px rgb(229, 235, 247, 0.25);
 }
 h1,
@@ -276,7 +274,6 @@ h4 {
   width: 70%;
   height: 95%;
   border-radius: 10px;
-  /*border: 1px solid white;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,4 +318,43 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   opacity: 100%;
+}
+
+/* Por debajo de 720px */
+@media (min-device-width: 390px) and (max-device-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 15px;
+    width: 17.563rem;
+    height: 5.188rem;
+  }
+}
+/* Por debajo de 390px */
+@media (max-width: 390px) {
+  h1 {
+    font-size: 0.625rem;
+  }
+  h4 {
+    font-size: 0.25rem;
+  }
+  p {
+    font-size: 0.06rem;
+  }
+  .centro {
+    width: 76%;
+    height: 17%;
+    left: 12%;
+    top: 15%;
+  }
+  .cuerpo {
+    flex-direction: column;
+  }
 }
