@@ -95,6 +95,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-items: center;
+  text-align: center;
 }
 
 .der {
@@ -253,10 +255,6 @@ h1 {
 }
 p {
   font-size: 2.25rem;
-  top: 26.938rem;
-  width: 29.563rem;
-  height: 12.188rem;
-  left: 20rem;
 }
 
 h4 {
