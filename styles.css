@@ -31,7 +31,7 @@ body {
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(34, 28, 28);
 }
 .cabecera {
   display: flex;
@@ -91,7 +91,7 @@ body {
   background-color: black;
   border: 1px solid #000000;
   box-sizing: content-box;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 10px rgb(229, 235, 247, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,10 +169,7 @@ body {
   max-height: 50%;
   min-width: 50%;
 }
-/*.Imagen {
-  max-height: 100%;
-  min-width: 100%;
-}*/
+
 .miImagen {
   max-height: 100%;
   min-width: 100%;
@@ -270,7 +267,6 @@ h4 {
 }
 .formulario {
   width: 70%;
-  height: 95%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -310,49 +306,11 @@ input[type="submit"] {
   padding: 4px;
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   opacity: 50%;
 }
 
 input[type="submit"]:hover {
   opacity: 100%;
-}
-
-/* Por debajo de 720px */
-@media (min-device-width: 390px) and (max-device-width: 900px) {
-  h1 {
-    font-size: 48px;
-  }
-  h4 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 15px;
-    width: 17.563rem;
-    height: 5.188rem;
-  }
-}
-/* Por debajo de 390px */
-@media (max-width: 390px) {
-  h1 {
-    font-size: 0.625rem;
-  }
-  h4 {
-    font-size: 0.25rem;
-  }
-  p {
-    font-size: 0.06rem;
-  }
-  .centro {
-    width: 76%;
-    height: 17%;
-    left: 12%;
-    top: 15%;
-  }
-  .cuerpo {
-    flex-direction: column;
-  }
 }
