@@ -311,7 +311,7 @@ input[type="submit"]:hover {
 }
 
 /* Portrait */
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 1170px) and (orientation: portrait) {
   .cuerpo {
     display: flex;
     flex-direction: column;
@@ -350,7 +350,7 @@ input[type="submit"]:hover {
 }
 
 /* Landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 1170px) and (max-width: 2532px) and (orientation: landscape) {
   h1 {
     font-size: 3rem;
   }
