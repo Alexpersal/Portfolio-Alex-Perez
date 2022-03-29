@@ -331,7 +331,16 @@ input[type="submit"]:hover {
   .der {
     width: 100%;
   }
+  .derProject,
+  .derFormulario {
+    width: 100%;
+    height: 50%;
+  }
 
+  .cajaFormulario {
+    width: 90%;
+    margin-left: 0%;
+  }
   h1 {
     font-size: 7rem;
   }
