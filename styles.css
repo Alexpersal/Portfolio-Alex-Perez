@@ -362,22 +362,23 @@ input[type="submit"]:hover {
   p {
     font-size: 3.25rem;
   }
-}
-.textoFollow {
-  font-size: 2.5rem;
-}
-.logos {
-  margin-left: 5%;
-  height: 2.625rem;
-  width: 12.438rem;
-}
 
-.instaimg,
-.twitterimg,
-.linkimg {
-  width: 40px;
+  .textoFollow {
+    font-size: 2.5rem;
+  }
+  .logos {
+    margin-left: 5%;
+    height: 2.625rem;
+    width: 12.438rem;
+  }
 
-  height: 39px;
+  .instaimg,
+  .twitterimg,
+  .linkimg {
+    width: 40px;
+
+    height: 39px;
+  }
 }
 /* Landscape */
 @media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
@@ -387,12 +388,86 @@ input[type="submit"]:hover {
   p {
     font-size: 1.25rem;
   }
+  .cuerpo {
+    height: 68vh;
+  }
+
+  .comentarios {
+    width: 80%;
+    height: 85px;
+    padding: 4px;
+  }
+  .textoFollow {
+    font-size: 1.2rem;
+  }
 }
 
-/* iPhone 13 Pro Max
- 2778x1284 pixels at 458ppi 
-@media only screen 
-    and (device-width: 428px) 
-    and (device-height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) { }
-This media query is used for: iPhone 13 Pro Max and iPhone 12 Pro Max */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home,
+  .proyectos,
+  .contacto {
+    font-size: 2.375rem;
+  }
+  .nom {
+    margin-left: 5%;
+    width: 7.25rem;
+    height: 5.453rem;
+  }
+  .navegador {
+    margin-left: 7%;
+  }
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .centro {
+    position: relative;
+    width: 100%;
+    /* height: 0%; */
+    left: 0%;
+    top: 0%;
+    border-radius: 0%;
+  }
+  .der {
+    width: 100%;
+  }
+  .derProject,
+  .derFormulario {
+    width: 100%;
+    height: 50%;
+  }
+  .izq {
+    padding-left: 30%;
+  }
+  .cajaFormulario {
+    width: 90%;
+    margin-left: 0%;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  p {
+    font-size: 3.25rem;
+  }
+
+  .textoFollow {
+    font-size: 2.5rem;
+  }
+  .logos {
+    margin-left: 5%;
+    height: 2.625rem;
+    width: 12.438rem;
+  }
+
+  .instaimg,
+  .twitterimg,
+  .linkimg {
+    width: 40px;
+
+    height: 39px;
+  }
+}
