@@ -311,7 +311,20 @@ input[type="submit"]:hover {
 }
 
 /* Portrait */
-@media (max-width: 428px) and (orientation: portrait) {
+@media only screen and (max-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .home,
+  .proyectos,
+  .contacto {
+    font-size: 2.375rem;
+  }
+  .nom {
+    margin-left: 5%;
+    width: 7.25rem;
+    height: 5.453rem;
+  }
+  .navegador {
+    margin-left: 7%;
+  }
   .cuerpo {
     display: flex;
     flex-direction: column;
@@ -336,7 +349,9 @@ input[type="submit"]:hover {
     width: 100%;
     height: 50%;
   }
-
+  .izq {
+    padding-left: 30%;
+  }
   .cajaFormulario {
     width: 90%;
     margin-left: 0%;
@@ -348,9 +363,24 @@ input[type="submit"]:hover {
     font-size: 3.25rem;
   }
 }
+.textoFollow {
+  font-size: 2.5rem;
+}
+.logos {
+  margin-left: 5%;
+  height: 2.625rem;
+  width: 12.438rem;
+}
 
+.instaimg,
+.twitterimg,
+.linkimg {
+  width: 40px;
+
+  height: 39px;
+}
 /* Landscape */
-@media (min-width: 428px) and (max-width: 926px) and (orientation: landscape) {
+@media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   h1 {
     font-size: 3rem;
   }
