@@ -502,6 +502,9 @@ input[type="submit"]:hover {
   .cuerpo {
     height: 68vh;
   }
+  .centro {
+    top: 40%;
+  }
 
   .comentarios {
     width: 83%;
