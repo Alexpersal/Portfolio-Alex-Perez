@@ -311,7 +311,7 @@ input[type="submit"]:hover {
 }
 
 /* Portrait */
-@media only screen and (max-device-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+@media only screen and (max-device-width: 450px) /*428and (max-device-height: 926px) */ and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .home,
   .proyectos,
   .contacto {
@@ -380,7 +380,9 @@ input[type="submit"]:hover {
     height: 39px;
   }
 }
-/* Landscape */
+
+/*
+Landscape 
 @media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   h1 {
     font-size: 3rem;
@@ -388,17 +390,39 @@ input[type="submit"]:hover {
   p {
     font-size: 1.25rem;
   }
+  label {
+    font-size: 0.8rem;
+  }
   .cuerpo {
     height: 68vh;
   }
 
   .comentarios {
-    width: 80%;
-    height: 85px;
-    padding: 4px;
+    width: 83%;
+    height: 55px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   .textoFollow {
     font-size: 1.2rem;
+  }
+  label {
+    margin-top: 1px;
+  }
+  input[type="text"],
+  [type="email"] {
+    width: 83%;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+  }
+  input[type="submit"] {
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
   }
 }
 
@@ -427,7 +451,6 @@ input[type="submit"]:hover {
   .centro {
     position: relative;
     width: 100%;
-    /* height: 0%; */
     left: 0%;
     top: 0%;
     border-radius: 0%;
@@ -470,4 +493,4 @@ input[type="submit"]:hover {
 
     height: 39px;
   }
-}
+}*/
