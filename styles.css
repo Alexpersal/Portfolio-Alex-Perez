@@ -105,6 +105,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("foto2.png");
+  background-size: cover;
 }
 .derProject {
   width: 40%;
@@ -343,6 +345,7 @@ input[type="submit"]:hover {
   }
   .der {
     width: 100%;
+    height: 100%;
   }
 
   .derProject,
@@ -393,7 +396,6 @@ input[type="submit"]:hover {
   .twitterimg,
   .linkimg {
     width: 40px;
-
     height: 39px;
   }
 }
@@ -429,6 +431,7 @@ input[type="submit"]:hover {
   }
   .der {
     width: 100%;
+    height: 100%;
   }
   .miImagen {
     max-height: 100%;
@@ -483,7 +486,6 @@ input[type="submit"]:hover {
   .twitterimg,
   .linkimg {
     width: 40px;
-
     height: 39px;
   }
 }
